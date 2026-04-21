@@ -12,7 +12,7 @@ class BudgetMonth:
         self.budgets = budgets
         self.transactions = []
 
-    def add_transaction(amount, category, date, description):
+    def add_transaction(self, amount, category, date, description):
         transaction = Transaction(amount, category, date, description)
         self.transactions.append(transaction)
     
